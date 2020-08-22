@@ -1,1 +1,1 @@
-# java-platformer-project
+# jumpman-platformer

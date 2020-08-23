@@ -31,7 +31,7 @@ public class mapHandler {
       
       levels = new ArrayList<Level>();
       //Information for each level (10 levels in total)
-      int[][] map = new int[][]{
+      int[][] map = new int[][] {
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,0,0,0,0,5,0,0,0,0,0,5,0,0,0,0,0,5,0,0,0,0,0,5,0,0,0,0,0,0,0,0,1},
          {1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
@@ -50,7 +50,7 @@ public class mapHandler {
       levels.add(new Level(map,"First Level"));
       levels.get(0).playerLocation = new Point(50,300);
       
-      int[][] map1 = new int[][]{
+      int[][] map1 = new int[][] {
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
          {1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
@@ -69,7 +69,8 @@ public class mapHandler {
       levels.add(new Level(map1,"Level 2"));
       levels.get(1).playerLocation = new Point(50,300);
       levels.get(1).lasers.get(0).setDelay(1,0);
-      int[][] map2 = new int[][]{
+
+      int[][] map2 = new int[][] {
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
@@ -110,7 +111,8 @@ public class mapHandler {
       levels.add(new Level(map2,"Level 3"));
       levels.get(2).playerLocation = new Point(50,500);
       setDelayAll(2,5,5);
-      int[][] map3 = new int[][]{
+
+      int[][] map3 = new int[][] {
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
@@ -142,7 +144,7 @@ public class mapHandler {
       setDelayAll(3,10,0);
       levels.get(3).playerLocation = new Point(50,650);
       
-      int[][] map4 = new int[][]{
+      int[][] map4 = new int[][] {
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
@@ -178,7 +180,8 @@ public class mapHandler {
       levels.add(new Level(map4,"Level 5"));
       levels.get(4).playerLocation = new Point(50,150);
       setDelayAll(4,1,1);
-      int[][] map5 = new int[][]{
+
+      int[][] map5 = new int[][] {
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
          {1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
@@ -222,7 +225,8 @@ public class mapHandler {
          };
       levels.add(new Level(map5,"Level 6"));
       levels.get(5).playerLocation = new Point(50,200);
-      int[][] map6 = new int[][]{
+
+      int[][] map6 = new int[][] {
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,7,0,0,0,7,1,1,1},
          {1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1},
@@ -245,7 +249,8 @@ public class mapHandler {
          }; 
       levels.add(new Level(map6,"Level 7"));
       levels.get(6).playerLocation = new Point(100,750);
-      int[][] map7 = new int[][]{
+
+      int[][] map7 = new int[][] {
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,100,7,0,0,0,0,0,0,0,0,0,0,0,7,7,7,7,0,0,7,7,0,0,0,0,0,7,7,7,7,7,1},
          {1,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
@@ -284,7 +289,8 @@ public class mapHandler {
          }; 
       levels.add(new Level(map7,"Level 8"));
       levels.get(7).playerLocation = new Point(50,1500);
-      int[][] map8 = new int[][]{
+
+      int[][] map8 = new int[][] {
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
@@ -328,7 +334,8 @@ public class mapHandler {
          }; 
       levels.add(new Level(map8,"Level 9"));
       levels.get(8).playerLocation = new Point(350,1750);
-      int[][] map9 = new int[][]{
+
+      int[][] map9 = new int[][] {
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
          {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
@@ -358,36 +365,42 @@ public class mapHandler {
       height = map.length;
    
    }
+
    //Selects a random new level from the ArrayList of levels given
-   public static void randomLevel(Character p){
-      int newLevel = (int)(Math.random()*levels.size());
-      while(newLevel == levelNum&&levels.size()>1){
-         newLevel = (int)(Math.random()*levels.size());
+   public static void randomLevel(Character p) {
+      int newLevel = (int)(Math.random() * levels.size());
+      while (newLevel == levelNum && levels.size() > 1) {
+         newLevel = (int)(Math.random() * levels.size());
       }
-      changeLevel(newLevel,p);
+      changeLevel(newLevel, p);
    }
+
    //Selects a level based on the number given
-   public static void changeLevel(int s, Character p){
-      if(levels.size()-1>=s){
+   public static void changeLevel(int s, Character p) {
+      if (levels.size() - 1 >= s) {
          levelNum = s;
       }
+
       p.myXPos = levels.get(levelNum).playerLocation.x;
       p.myYPos = levels.get(levelNum).playerLocation.y;
       p.dx = 0;
       p.dy = 0;
    }
-    //Returns the map double array
-   public static int[][] getMap(){
+
+   //Returns the map double array
+   public static int[][] getMap() {
       return levels.get(levelNum).map;
    }
+
    //Allows easier setting of the delay for all the lasers in a level
-   public static void setDelayAll(int level,double one, double two){
-      for(int i = 0;i<levels.get(level).lasers.size();i++){
+   public static void setDelayAll(int level,double one, double two) {
+      for(int i = 0; i < levels.get(level).lasers.size(); i++) {
          levels.get(level).lasers.get(i).setDelay(one,two);
       }
    }
+
    //Returns original size of each block
-   public int getSize(){
+   public int getSize() {
       return size;
    }
 }

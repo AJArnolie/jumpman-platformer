@@ -5,7 +5,8 @@
 </p>
 
 ## Project Overview:
-This repo contains a Java Game Development project completed over 2 months as a final project for AP Computer Science.
+This repo contains a Java Game Development project completed over 2 months as a final project for AP Computer Science (2017).
+
 <p align="center">
 <img width="700" alt="Screen Shot 2023-02-18 at 2 41 52 PM" src="https://user-images.githubusercontent.com/57520931/219902598-573122a8-420d-467f-8dcf-e1da4991bbbc.png">
 </p>
